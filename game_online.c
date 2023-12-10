@@ -11,8 +11,10 @@ int main()
         diskon = 10;
     } else if(jam_main > 6 && jam_main <= 8){
         diskon = 15;
-    } else if(jam_main > 8){
+    } else if(jam_main == 8){
         diskon = 20;
+    } else if(jam_main > 8){
+        diskon = 25;
     }
 
     bayar = harga * jam_main;
